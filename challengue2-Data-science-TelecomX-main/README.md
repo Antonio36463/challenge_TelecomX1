@@ -68,7 +68,7 @@ Ejemplo de código para obtener los datos:
 import requests
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/ingridcristh/challenge2-data-science/main/TelecomX_Data.json"
+url = "https://raw.githubusercontent.com/user/challenge2-data-science/main/TelecomX_Data.json"
 
 response = requests.get(url)
 data = response.json()
@@ -185,4 +185,4 @@ Proyecto desarrollado como parte de un ejercicio de **análisis de datos y cienc
 
 # Licencia
 
-Este proyecto es de uso educativo y puede utilizarse como referencia para proyectos de análisis de datos.
+Este proyecto es de uso educativo
